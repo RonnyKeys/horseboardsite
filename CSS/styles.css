@@ -294,7 +294,7 @@ main {
         
     }
 
-    .card {
+     .card {
         width: 400px;
         border: 1px solid #ccc;
         border-radius: 25px;
@@ -365,12 +365,13 @@ main {
       }
 
       @media screen and (max-width: 600px) {
-        #about h1 {
-          font-size: 5vw;
+        #about h2 {
+          font-size: 40px;
         }
 
         #about p {
-          font-size: 3.5vw;
+          font-size: 18px;
+          width: 100%;
         
         }
       }
@@ -379,7 +380,7 @@ main {
       footer {
         background-color: #333;
         color: #fff;
-        padding: 10px;
+        
       }
       
       .footer-content {
@@ -388,11 +389,12 @@ main {
         display: flex;
         justify-content: flex-start;
         align-items: center;
+        padding: 5px;
       }
       
       .footer-content p {
         margin: 0;
-        font-size: 14px;
+        
       }
       
       .footer-content ul {
@@ -410,6 +412,15 @@ main {
         color: #fff;
         text-decoration: none;
         font-size: 14px;
+      }
+
+      @media screen and (max-width: 780px) {
+        .footer-content ul li a {
+          color: #fff;
+          text-decoration: none;
+          font-size: 13px;
+        }
+     
       }
 
 
