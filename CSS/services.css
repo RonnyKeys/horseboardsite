@@ -14,6 +14,7 @@ html {
     text-decoration: none;
 
     font-family: "Poppins", sans-serif;
+    
 }
 
 body {
@@ -308,6 +309,9 @@ li, a, button {
 
 
 @media screen and (max-width: 768px) {
+    
+
+
     .service-row {
         flex-direction: column;
         border: none;
@@ -324,24 +328,27 @@ li, a, button {
     }
     .srvc-img {
         height: 260px;
+        width: 100%;
         display: block;
+        
         
       
     }
 
 
-    .service-txt {
+    .service-txt {  
         height: 25vh;
         width: 100%;
         justify-content: center;
         margin-top: 25px;
         margin-bottom: 50px;
-        padding: 15px;
+        padding: 25px;
     }
+
 
     .service-txt p {
         margin-top: 10px;
-        font-size: 15px;
+        font-size: 2.3vh;
     }
    
 
