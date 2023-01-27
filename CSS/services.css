@@ -177,33 +177,36 @@ li, a, button {
 
 
 /* Header BTN */
-
 .button-18 {
-  padding: 9px 15px;
-  font-size: 12px;
-  background-color: var(--primary);
-  border-radius: 15px;
+  
+    padding: 9px;
+    font-size: 13px;
+    background-color: lightgray;
+    color: black;
+    border-radius: 15px;
+    width: 77px;
+  
+  }
+  
+  .button-18:hover,
+  .button-18:focus {
+    background-color: black;
+    color: white;
+  }
+  
+  .button-18:active {
+    background: #09223b;
+    color: rgb(255, 255, 255, .7);
+  }
+  
+  .button-18:disabled {
+    cursor: not-allowed;
+    background: rgba(0, 0, 0, .08);
+    color: rgba(0, 0, 0, .3);
+  }
 
-  width: 77px;
-
-}
-
-.button-18:hover,
-.button-18:focus {
-  background-color: var(--secondary);
-  color: var(--primary);
-}
-
-.button-18:active {
-  background: #09223b;
-  color: rgb(255, 255, 255, .7);
-}
-
-.button-18:disabled {
-  cursor: not-allowed;
-  background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
-}
+  
+ 
 
 
 .fa-facebook {
@@ -220,34 +223,9 @@ li, a, button {
 
 
 
-/* Header BTN */
 
-.button-18 {
-  padding: 9px 15px;
-  font-size: 12px;
-  background-color: var(--primary);
-  border-radius: 15px;
 
-  width: 77px;
 
-}
-
-.button-18:hover,
-.button-18:focus {
-  background-color: var(--secondary);
-  color: var(--primary);
-}
-
-.button-18:active {
-  background: #09223b;
-  color: rgb(255, 255, 255, .7);
-}
-
-.button-18:disabled {
-  cursor: not-allowed;
-  background: rgba(0, 0, 0, .08);
-  color: rgba(0, 0, 0, .3);
-}
 
 
 .fa-facebook {
@@ -318,7 +296,7 @@ li, a, button {
     }
     .services-heading {
     
-        font-size: 4vh;
+        font-size: 3.7vh;
         text-align: center;
         width: 100%;
         margin-bottom: 25px;
