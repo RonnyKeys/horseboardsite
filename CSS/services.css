@@ -250,8 +250,9 @@ li, a, button {
 }
 
 .srvc-img {
-    height: 300px;
+    height: 500px;
     display: block;
+    
 
 }
 
@@ -305,8 +306,9 @@ li, a, button {
         
     }
     .srvc-img {
-        height: 260px;
+        height: 350px;
         width: 100%;
+        border-radius: 15px;
         display: block;
         
         
