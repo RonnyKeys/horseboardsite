@@ -245,10 +245,11 @@ main {
   line-height: 1.2;
   margin: 10px 0 30px;
 }
-.hero-txt p {
-  font-size: 1.5em;
+.hero-txt h2 {
+  font-size: 1.9em;
   margin-bottom: 40px;
-  width: 45%;
+  padding-right: 15px;
+  width: 100%;
 }
 
 .button-23 {
