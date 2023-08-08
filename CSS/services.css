@@ -311,10 +311,10 @@ li, a, button {
     }
     .srvc-img {
         width: 100%;
-        border-radius: 15px;
+        border-radius: 25px;
         display: block;
-        border: solid 1px black;
-        padding: 25px;
+        
+        padding: 13px;
         
         
       
