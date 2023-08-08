@@ -297,6 +297,7 @@ li, a, button {
     .service-row {
         flex-direction: column;
         border: none;
+        
     }
     .services-heading {
     
@@ -309,10 +310,11 @@ li, a, button {
         
     }
     .srvc-img {
-        
         width: 100%;
         border-radius: 15px;
         display: block;
+        border: solid 1px black;
+        padding: 25px;
         
         
       
